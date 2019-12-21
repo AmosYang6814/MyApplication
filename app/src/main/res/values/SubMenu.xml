@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="de_comonent">
+        <item name="conponent_button">按钮</item>
+        <item name="component_checkBox">复选框</item>
+        <item name="component_day">时间选择框</item>
+        <item name="component_image">图像</item>
+        <item name="component_label">标签</item>
+        <item name="component_list">列表框</item>
+        <item name="component_dialog">对话框</item>
+        <item name="component_input">输入框</item>
+        <item name="component_slip">滑动条</item>
+        <item name="compnent_drop">下拉框</item>
+        <item name="component_web">web框</item>
+    </array>
+
+    <array name="media_component">
+        <item>照相机</item>
+        <item>图像选择框</item>
+        <item>音频播放器</item>
+        <item>录音机</item>
+        <item>视频播放器</item>
+    </array>
+    <array name="draw_component">
+        <item>画布</item>
+    </array>
+    <array name="sensor_component">
+        <item>加速传感器</item>
+        <item>计时器</item>
+        <item>陀螺仪传感器</item>
+        <item>方向传感器</item>
+        <item>距离传感器</item>
+    </array>
+    <array name="pakeage_component">
+        <item>联系人选择框</item>
+        <item>电话拨号</item>
+    </array>
+    <array name="store_component">
+        <item>文件存储</item>
+        <item>数据表格存储</item>
+        <item>网络存储</item>
+    </array>
+    <array name="connect_component">
+        <item>通信连接</item>
+        <item>蓝牙连接</item>
+        <item>网络连接</item>
+        <item>wifi连接</item>
+    </array>
+</resources>

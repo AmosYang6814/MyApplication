@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT components (complex_component*)>
+
+<!ELEMENT complex_component (simple_component*)>
+<!ATTLIST complex_component name CDATA #REQUIRED>
+<!ATTLIST complex_component id ID #REQUIRED>
+
+<!ELEMENT simple_component (attribute* ,action*)>;
+<!ATTLIST simple_component name CDATA #REQUIRED>
+<!ATTLIST simple_component id ID #REQUIRED>
+<!ATTLIST simple_component point_x CDATA #REQUIRED>
+<!ATTLIST simple_component point_y CDATA #REQUIRED>
+
+<!ELEMENT attribute (#PCDATA)>
+<!ATTLIST attribute name CDATA #REQUIRED>
+<!ATTLIST attribute default_value CDATA #IMPLIED>
+<!ATTLIST attribute valueType (integer | string |color |double | boolean ) "integer">
+<!ATTLIST attribute attributeType (mutation|Gradient) "mutation">
+
+<!ELEMENT action (#PCDATA)>
+<!ATTLIST action name CDATA #REQUIRED>
+<!ATTLIST action DefaultValue CDATA #IMPLIED>
+<!ATTLIST action action_type  (click|focus_lose|focus_get|long_click|before_input |after_input)  "click">
+<!ATTLIST action is_setting (true|false) "true" >
+

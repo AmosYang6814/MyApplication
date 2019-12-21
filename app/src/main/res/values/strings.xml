@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    
+    <string name="component">常用组件</string>
+    <string name="media">多媒体组件</string>
+    <string name="Draw">绘图动画</string>
+    <string name="sensor">传感器</string>
+    <string name="Functional">功能组件</string>
+    <string name="store">数据存储</string>
+    <string name="connect">通信连接</string>
+    
+    <string name="conponent_button">按钮</string>
+    <string name="component_checkBox">复选框</string>
+    <string name="component_day">时间选择框</string>
+    <string name="component_image">图像</string>
+    <string name="component_label">标签</string>
+    <string name="component_list">列表框</string>
+    <string name="component_dialog">对话框</string>
+    <string name="component_input">输入框</string>
+    <string name="component_slip">滑动条</string>
+    <string name="compnent_drop">下拉框</string>
+    <string name="component_web">web框</string>
+
+</resources>

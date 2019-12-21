@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT states (status*)>
+
+<!ELEMENT status (component_status*)>
+<!ATTLIST status name CDATA #REQUIRED>
+<!ATTLIST status status_id ID #REQUIRED>
+<!ATTLIST status auto_trigger (true|false) "false">
+
+<!ELEMENT component_status (attribute_status*)>
+<!ATTLIST component_id CDATA #REQUIRED>
+
+<!ELEMENT attribute_status (#PCDATA)>
+<!ATTLIST attribute_name CDATA #REQUIRED>
+<!ATTLIST update_value CDATA #IMPLIED>

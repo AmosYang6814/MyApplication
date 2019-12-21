@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/component_button"
+        android:title="@string/conponent_button" />
+    <item
+        android:id="@+id/component_checkBox"
+        android:title="@string/component_checkBox" />
+    <item
+        android:id="@+id/component_day"
+        android:title="@string/component_day" />
+    <item
+        android:id="@+id/component_image"
+        android:title="@string/component_image" />
+    <item
+        android:id="@+id/component_label"
+        android:title="@string/component_label" />
+    <item
+        android:id="@+id/component_list"
+        android:title="@string/component_list" />
+    <item
+        android:id="@+id/component_dialog"
+        android:title="@string/component_dialog" />
+    <item
+        android:id="@+id/component_input"
+        android:title="@string/component_input" />
+    <item
+        android:id="@+id/component_slip"
+        android:title="@string/component_slip" />
+    <item
+        android:id="@+id/component_drop"
+        android:title="@string/compnent_drop" />
+    <item
+        android:id="@+id/component_web"
+        android:title="@string/component_web" />
+</menu>

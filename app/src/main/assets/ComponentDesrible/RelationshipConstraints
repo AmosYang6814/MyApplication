@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!ELEMENT relationship (link*)>
+
+<!ELEMENT link (#PCDATA)>
+<!ATTLIST link link_id ID #REQUIRED>
+<!ATTLIST link pre_status_id CDATA #REQUIRED>
+<!ATTLIST link next_status_id CDATA #REQUIRED>
+<!ATTLIST link logic_id CDATA #REQUIRED>
