@@ -6,7 +6,7 @@
     <complex_component name="list" id="1">
         <simple_component name="listview" id="2" point_x="0" point_y="0">
             <action name="click" action_type="focus_lose" is_setting="false"/>
-            <attribute name="background" valueType="color" default_value="red"/>
+            <attribute name="background" value_type="color" default_value="red"/>
 
         </simple_component>
     </complex_component>

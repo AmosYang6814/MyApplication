@@ -14,7 +14,7 @@
 <!ELEMENT attribute (#PCDATA)>
 <!ATTLIST attribute name CDATA #REQUIRED>
 <!ATTLIST attribute default_value CDATA #IMPLIED>
-<!ATTLIST attribute valueType (integer | string |color |double | boolean ) "integer">
+<!ATTLIST attribute value_type (integer | string |color |double | boolean ) "integer">
 <!ATTLIST attribute attributeType (mutation|Gradient) "mutation">
 
 <!ELEMENT action (#PCDATA)>
